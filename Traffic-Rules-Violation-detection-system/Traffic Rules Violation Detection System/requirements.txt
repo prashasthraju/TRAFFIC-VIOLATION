@@ -1,0 +1,18 @@
+# Core
+opencv-python>=4.9.0
+numpy>=1.26.0
+
+# YOLO + Deep Learning
+ultralytics>=8.2.0
+torch>=2.3.0
+torchvision>=0.18.0
+
+# Tracker
+supervision>=0.18.0
+
+# Utilities
+matplotlib>=3.9.0
+tqdm>=4.66.0
+rich>=13.7.0
+loguru>=0.7.2
+ffmpeg-python>=0.2.0
