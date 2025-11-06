@@ -3,20 +3,20 @@ from pathlib import Path
 
 class Config:
     # I/O paths
-    VIDEO_PATH = Path("record.mkv")
+    VIDEO_PATH = Path("record1.mp4")
     OUTPUT_PATH = Path("output.avi")
 
     # YOLO model path (auto-download if missing)
     YOLO_MODEL = "yolov8n.pt"  # lightweight, accurate
 
     # Processing
-    FRAME_WIDTH = 1280
-    FRAME_HEIGHT = 720
+    FRAME_WIDTH = 1920
+    FRAME_HEIGHT = 1080
     OUTPUT_FPS = 20
 
     # Calibration (adjust for your camera setup)
     PIXELS_PER_METER = 8.8
-    SPEED_LIMIT_KMPH = 30
+    SPEED_LIMIT_KMPH = 60
 
     # Tracking
     TRACK_CONFIDENCE = 0.25
